@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Task_b {
+     public static void main(String[] args) {
+         Scanner in = new Scanner(System.in);
+
+         int a = in.nextInt();
+
+         System.out.println(("The next number for the number"+a +"is"+ (a+1)+ "."));
+
+
+    }
+}
