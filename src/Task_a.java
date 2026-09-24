@@ -1,7 +1,6 @@
-import java.math.MathContext;
 import java.util.Scanner;
 
-public class Main {
+public class Task_a {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
