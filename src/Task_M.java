@@ -6,12 +6,10 @@ public class Task_M {
 
         int a = in.nextInt();
         int b = in.nextInt();
-        int c = in.nextInt();
 
-        int n = (a*c);
-        int n2 = (b*c);
-
-
-        System.out.println(n+" "+n2);
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println(a+" "+b);
     }
 }
