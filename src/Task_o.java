@@ -8,7 +8,9 @@ public class Task_o {
         int b = in.nextInt();
         int c = in.nextInt();
 
+        int t = (a *100 +b)*c;
 
-        System.out.println((a*c)+" "+(b*c));
+
+        System.out.println(t/100+" "+ t%100);
     }
 }
